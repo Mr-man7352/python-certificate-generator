@@ -1,3 +1,6 @@
+### Credit :-
+https://github.com/tusharnankani/CertificateGenerator
+
 <!-- <p align="center">
   <b>Certificate Generator</b>
 </p> -->
