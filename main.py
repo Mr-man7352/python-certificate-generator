@@ -17,7 +17,7 @@ def make_certificates(name):
     name_width, name_height = draw.textsize(name, font=FONT_FILE)
 
     # Placing it in the center, then making some adjustments.
-    draw.text(((WIDTH - name_width), (HEIGHT - name_height) ), name, fill=FONT_COLOR, font=FONT_FILE)
+    draw.text(((WIDTH - name_width)/2, (HEIGHT - name_height)/2 ), name, fill=FONT_COLOR, font=FONT_FILE)
 
     # Saving the certificates in a different directory.
     image_source.save("./out/" + name +".png")
@@ -25,7 +25,7 @@ def make_certificates(name):
 
 if __name__ == "__main__":
 
-    names = [ 'manish sahu']
+    names = [ 'Abhishek kumar yadav']
     for name in names:
         make_certificates(name)
 

@@ -1,4 +1,4 @@
 from PIL import Image
-image1 = Image.open(r'./out/man baap.png')
+image1 = Image.open(r'./out/certificate.png')
 im1 = image1.convert('RGB')
-im1.save(r'./out/man.pdf')
+im1.save(r'./out/certificate.pdf')
